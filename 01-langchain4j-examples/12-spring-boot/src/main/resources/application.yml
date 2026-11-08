@@ -1,0 +1,8 @@
+server:
+  port: 8080
+
+langchain4j:
+  base-url: https://api.deepseek.com
+  # 从环境变量读取，避免把密钥提交到代码仓库
+  api-key: ${DEEPSEEK_API_KEY}
+  model-name: deepseek-chat
